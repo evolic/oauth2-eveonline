@@ -2,7 +2,7 @@
 require_once('../vendor/autoload.php');
 session_start();
 
-$provider = new Evelabs\OAuth2\Client\Provider\EveOnline([
+$provider = new Evolic\OAuth2\Client\Provider\EveOnline([
     'clientId'          => '{eveonline-client-id}',
     'clientSecret'      => '{eveonline-client-secret}',
     'redirectUri'       => 'https://example.com/callback-url',
