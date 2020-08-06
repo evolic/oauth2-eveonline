@@ -7,11 +7,6 @@
       "name": "Oleg Krasavin",
       "email": "okwinza@gmail.com",
       "homepage": "https://github.com/okwinza"
-    },
-    {
-      "name": "Tomasz Kuter",
-      "email": "tkuter@loculus.pl",
-      "homepage": "https://github.com/evolic"
     }
   ],
   "keywords": [
@@ -33,12 +28,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Evolic\\OAuth2\\Client\\": "src/"
+      "Evelabs\\OAuth2\\Client\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Evolic\\OAuth2\\Client\\Test\\": "test/src/"
+      "Evelabs\\OAuth2\\Client\\Test\\": "test/src/"
     }
   },
   "extra": {

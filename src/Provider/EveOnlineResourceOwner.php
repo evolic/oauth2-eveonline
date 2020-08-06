@@ -1,6 +1,6 @@
 <?php
 
-namespace Evolic\OAuth2\Client\Provider;
+namespace Evelabs\OAuth2\Client\Provider;
 
 use League\OAuth2\Client\Provider\GenericResourceOwner;
 
